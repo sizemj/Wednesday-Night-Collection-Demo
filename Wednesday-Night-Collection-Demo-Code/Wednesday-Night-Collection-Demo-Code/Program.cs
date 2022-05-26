@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Media;
 
 namespace Wednesday_Night_Collection_Demo_Code
 {
@@ -77,6 +78,16 @@ namespace Wednesday_Night_Collection_Demo_Code
                     Console.WriteLine("Something crazy happened with " + i + "!");
                 }
             }
+#pragma warning disable CA1416 // Validate platform compatibility
+            System.Media.SoundPlayer ik = new SoundPlayer();
+#pragma warning restore CA1416 // Validate platform compatibility
+#pragma warning disable CA1416 // Validate platform compatibility
+            ik.SoundLocation = Environment.CurrentDirectory + "/ik.wav";
+#pragma warning restore CA1416 // Validate platform compatibility
+#pragma warning disable CA1416 // Validate platform compatibility
+            ik.Play();
+#pragma warning restore CA1416 // Validate platform compatibility
+            Console.ReadKey();
         }
     }
 }

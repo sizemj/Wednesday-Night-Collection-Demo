@@ -5,5 +5,15 @@
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Wednesday_Night_Collection_Demo_Code</RootNamespace>
   </PropertyGroup>
+  
+  <ItemGroup>
+   <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="ik.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
