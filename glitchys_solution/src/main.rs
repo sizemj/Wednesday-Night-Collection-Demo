@@ -12,7 +12,7 @@ fn main() {
         }
     };
 
-    // iterate through each list and print each element to stdout
+    // iterate through each vector and print each element to stdout
     println!("\nNumbers divisible by 2 AND 5:");
     v1.iter().for_each(|v| println!("{}", v));
 
