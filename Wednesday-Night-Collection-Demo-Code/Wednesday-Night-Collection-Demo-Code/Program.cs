@@ -12,7 +12,8 @@ namespace Wednesday_Night_Collection_Demo_Code
             //float result;
             for (int i = 0; i <= 100; i++)
             {
-                //For some reason, I could not get this to work when declaring the booleans above as false and not including else statements below. The variables div2 and div5 would always return true no matter what was in the actual if statement. This may have been covered in class, but I'm not sure the reasoning behind that.
+                //For some reason, I could not get this to work when declaring the booleans above as false and not including else statements below.
+                //The variables div2 and div5 would always return true no matter what was in the actual if statement. This may have been covered in class, but I'm not sure the reasoning behind that.
                 //It was driving me crazy, and I thought the code commented out below was what fixed it, but adding the else statements did the trick with a simpler calculation.
 
                 //result = ((float)i / 2);
