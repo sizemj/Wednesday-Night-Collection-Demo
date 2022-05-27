@@ -7,10 +7,10 @@ Welcome to Rust! Rust can create binary executables that, once generated, can be
 
 ### MacOS/Linux
 ```
-./target/debug/glitchys_solution`
+./target/glitchys_solution`
 ```
 
 ### Windows
 ```
-./target/x86_64-pc-windows-gnu/debug/glitchys_solution.exe`
+./target/x86_64-pc-windows-gnu/glitchys_solution.exe`
 ```
