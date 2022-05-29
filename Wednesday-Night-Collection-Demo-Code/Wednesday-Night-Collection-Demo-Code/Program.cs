@@ -1,4 +1,6 @@
-﻿namespace Wednesday_Night_Collection_Demo_Code
+using System;
+
+namespace Wednesday_Night_Collection_Demo_Code
 {
   class Program
   {
