@@ -84,6 +84,7 @@ namespace Wednesday_Night_Collection_Demo_Code
                 catch (Exception ex)
                 {
                     Console.WriteLine("Exception occurred: " + ex.Message);
+                    throw;
                 }
             }
             else
