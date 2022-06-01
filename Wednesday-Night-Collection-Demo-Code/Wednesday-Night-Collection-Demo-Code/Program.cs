@@ -13,6 +13,11 @@ namespace Wednesday_Night_Collection_Demo_Code
                 Console.WriteLine("Done determining divisibility!" + "\n");
                 PlayASong();
             }
+            else
+            {
+                Console.WriteLine("Oof, something went wrong!");
+                PlayASong();
+            }
         }
 
         //Put the for loop into a method to make the above easier to deal with.
